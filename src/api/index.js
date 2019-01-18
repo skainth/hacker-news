@@ -1,6 +1,4 @@
-// While making API call we do not need currentVoteCount
-// It is needed for locally storing the voteCount
-import wretch from "wretch/dist/index";
+import wretch from "wretch";
 import {getUrl, transformSearchResponse} from "../helpers/transform";
 
 const storage = localStorage;
