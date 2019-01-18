@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 import { getPostsType } from "./helpers/utils";
-import { getPosts, postUpvote } from "./api";
+import {getPosts, hidePost, postUpvote} from "./api";
 
 class NewsContainer extends Component {
 	constructor(props){
@@ -51,6 +51,19 @@ class NewsContainer extends Component {
 			console.log('error saving upvote', error)
 		});
 	}
+	hidePostClick = event => {
+		const { objectid } = event.currentTarget.dataset;
+		hidePost(objectid).then(postId => {
+			const { posts } = this.state;
+			const clonedPosts = [...posts];
+			const filteredPosts = clonedPosts.filter(post => post.objectID !== postId);
+
+			this.setState({posts: filteredPosts});
+		}).catch(error => {
+			alert('Error hiding post');
+			console.log('Error hiding post', error);
+		});
+	}
 	renderPost = post=> {
 		return (
 			<tr key={post.objectID}>
@@ -61,7 +74,7 @@ class NewsContainer extends Component {
 					<a href={post.url}>{post.title}</a>
 					by<span>{post.author}</span>
 					<span>3 hours ago</span>
-					[<button>hide</button>]
+					[<button onClick={this.hidePostClick} data-objectid={post.objectID}>hide</button>]
 					</td>
 			</tr>
 		);
