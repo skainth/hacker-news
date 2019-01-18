@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Redirect, Switch } from 'react-router-dom';
 
 import Header from './Header';
-import NewsContainer from './NewsContainer';
+import NewsContainer from './containers/NewsContainer';
 
 class App extends Component{
 	render(){

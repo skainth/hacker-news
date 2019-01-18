@@ -19,7 +19,7 @@ class NewsList extends Component{
 		);
 	}
 	render(){
-		const { posts } = this.props;
+		const { posts = [] } = this.props;
 		return (
 			<table>
 				<tbody>

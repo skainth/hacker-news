@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 
-import NewsList from './components/NewsList';
-import { getPostsType } from "./helpers/utils";
-import {getPosts, hidePost, postUpvote} from "./api";
+import NewsList from '../components/NewsList/index';
+import { getPostsType } from "../helpers/utils";
+import {getPosts, hidePost, postUpvote} from "../api/index";
 
 class NewsContainer extends Component {
 	constructor(props){
