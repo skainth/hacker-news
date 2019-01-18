@@ -2,6 +2,3 @@ language: node_js
 node_js:
   - "node"
   - "8"
-after_success:
-  - chmod +x ./publish.sh
-  - ./publish.sh
