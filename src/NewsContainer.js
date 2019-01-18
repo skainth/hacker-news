@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 
+import NewsList from './components/NewsList';
 import { getPostsType } from "./helpers/utils";
 import {getPosts, hidePost, postUpvote} from "./api";
 
@@ -71,31 +72,12 @@ class NewsContainer extends Component {
 		const { page } = this.state;
 		this.fetchPosts(getPostsType(this.props.match.path), page + 1);
 	}
-	renderPost = post=> {
-		return (
-			<tr key={post.objectID}>
-				<td>
-					<span>{post.num_comments}</span>
-					<span>{post.points}</span>
-					<button onClick={this.upvoteClick} data-objectid={post.objectID} data-upvotecount={post.points}>^</button>
-					<a href={post.url}>{post.title}</a>
-					by<span>{post.author}</span>
-					<span>3 hours ago</span>
-					[<button onClick={this.hidePostClick} data-objectid={post.objectID}>hide</button>]
-					</td>
-			</tr>
-		);
-	}
 	render(){
 		const { posts } = this.state;
 		const { page, nbPages } = this.state;
 		return (
 			<>
-				<table>
-					<tbody>
-						{posts.map(this.renderPost)}
-					</tbody>
-				</table>
+				<NewsList posts={posts} upvoteClick={this.upvoteClick} hidePostClick={this.hidePostClick} />
 				{(page + 1) < nbPages &&  <button onClick={this.moreClick}>More</button>}
 			</>
 		);
