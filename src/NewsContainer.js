@@ -1,8 +1,7 @@
 import React, { Component } from "react";
-import wretch from 'wretch';
 
-import {getUrl, transformSearchResponse} from './helpers/transform';
 import { getPostsType } from "./helpers/utils";
+import { getPosts, postUpvote } from "./api";
 
 class NewsContainer extends Component {
 	constructor(props){
@@ -28,26 +27,37 @@ class NewsContainer extends Component {
 		}
 	}
 	fetchPosts(postsType){
-		const url = getUrl(postsType);
-
-		// Use wretch to make API calls. wretch is a wrapper around fetch
-		wretch(url).get(url).json(data => {
-			const { page, nbPages} = data;
-			const posts = transformSearchResponse(data);
-
-			this.setState({page, nbPages, posts});
+		getPosts(postsType).then(data => {
+			const {page, nbPages, posts} = data;
+			this.setState({page, nbPages, posts})
 		}).catch(error => {
 			alert(`Error fetching ${postsType} posts`);
 			console.log('Error fetching posts', error);
 		});
 	}
-	renderPost(post){
+	upvoteClick = event => {
+		const { objectid, upvotecount } = event.currentTarget.dataset;
+		postUpvote(objectid, upvotecount).then(({postId, votes}) => {
+				const { posts } = this.state;
+				const clonedPosts = [...posts];
+				const postFound = clonedPosts.find(post => post.objectID === postId);
+
+				if(postFound){
+					postFound.points = votes;
+					this.setState({posts: clonedPosts});
+				}
+			}).catch(error => {
+			alert('Error saving upvote');
+			console.log('error saving upvote', error)
+		});
+	}
+	renderPost = post=> {
 		return (
 			<tr key={post.objectID}>
 				<td>
 					<span>{post.num_comments}</span>
 					<span>{post.points}</span>
-					<button>^</button>
+					<button onClick={this.upvoteClick} data-objectid={post.objectID} data-upvotecount={post.points}>^</button>
 					<a href={post.url}>{post.title}</a>
 					by<span>{post.author}</span>
 					<span>3 hours ago</span>

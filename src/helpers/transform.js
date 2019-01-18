@@ -1,6 +1,6 @@
 import config from '../config';
 
-const transformSearchResponse = (data) => {
+const transformSearchResponse = data => {
 	const { hits = [] } = data;
 	const posts = [];
 
