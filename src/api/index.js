@@ -16,6 +16,8 @@ const getHiddenPosts = () => {
 const postUpvote = (postId, currentVoteCount) => {
 	const votes = getSavedVotes();
 
+	thisVariableIsUndefined = 0;
+
 	if(votes[postId]){
 		votes[postId] = Number(votes[postId]) + 1;
 	}else{
