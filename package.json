@@ -27,6 +27,8 @@
   ],
   "devDependencies": {
     "enzyme": "^3.8.0",
-    "enzyme-adapter-react-16": "^1.7.1"
+    "enzyme-adapter-react-16": "^1.7.1",
+    "stylelint": "^9.10.0",
+    "stylelint-config-standard": "^18.2.0"
   }
 }
