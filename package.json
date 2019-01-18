@@ -12,8 +12,10 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "build": "yarn lint:css && react-scripts build",
+    "lint:css": "stylelint src/**/*.css",
+    "lint:css:fix": "stylelint src/**/*.css --fix",
+    "test": "react-scripts test && yarn lint:css",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
