@@ -2,3 +2,19 @@ language: node_js
 node_js:
   - "node"
   - "8"
+cache:
+  directories:
+    - node_modules
+script:
+  - yarn test
+env:
+  - CI=true
+before_deploy:
+  - yarn add netlify-cli -g
+  - yarn build
+deploy:
+  provider: script
+  script: netlify deploy -s $NETLIFY_SITE_ID -a $NETLIFY_PUBLISH_KEY -d ./build
+  skip_cleanup: true
+  on:
+    branch: master
