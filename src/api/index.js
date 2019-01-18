@@ -36,7 +36,7 @@ const hidePost = postId => {
 	return Promise.resolve(postId);
 };
 
-const getPosts = postsType => {
+const getPosts = (postsType, page) => {
 	/*
 	1. Fetch data from API
 	2. Transform the data
@@ -44,7 +44,7 @@ const getPosts = postsType => {
 	4. Remove the hidden posts
 	 */
 
-	const url = getUrl(postsType);
+	const url = getUrl(postsType, page);
 
 	// wretch is a wrapper around fetch
 	return wretch(url).get(url).json(data => {

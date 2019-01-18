@@ -15,8 +15,8 @@ const transformSearchResponse = data => {
 	return posts;
 };
 
-const getUrl = (postsType) => {
-	const url = config.postTypes[postsType];
+const getUrl = (postsType, page) => {
+	const url = config.postTypes[postsType] + (page? `&page=${page}`: '');
 	if(url){
 		return url;
 	}

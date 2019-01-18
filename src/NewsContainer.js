@@ -23,13 +23,16 @@ class NewsContainer extends Component {
 		const prevPostsPath = getPostsType(prevProps.match.path);
 
 		if(currentPostsType !== prevPostsPath){
-			this.fetchPosts(currentPostsType);
+			this.setState({posts: [], nbPages: null, page: 0}, () => {
+				this.fetchPosts(currentPostsType);
+			});
 		}
 	}
-	fetchPosts(postsType){
-		getPosts(postsType).then(data => {
+
+	fetchPosts(postsType, page){
+		getPosts(postsType, page).then(data => {
 			const {page, nbPages, posts} = data;
-			this.setState({page, nbPages, posts})
+			this.setState({page, nbPages, posts: [...this.state.posts, ...posts]})
 		}).catch(error => {
 			alert(`Error fetching ${postsType} posts`);
 			console.log('Error fetching posts', error);
@@ -64,6 +67,10 @@ class NewsContainer extends Component {
 			console.log('Error hiding post', error);
 		});
 	}
+	moreClick = () => {
+		const { page } = this.state;
+		this.fetchPosts(getPostsType(this.props.match.path), page + 1);
+	}
 	renderPost = post=> {
 		return (
 			<tr key={post.objectID}>
@@ -81,12 +88,16 @@ class NewsContainer extends Component {
 	}
 	render(){
 		const { posts } = this.state;
+		const { page, nbPages } = this.state;
 		return (
-			<table>
-				<tbody>
-					{posts.map(this.renderPost)}
-				</tbody>
-			</table>
+			<>
+				<table>
+					<tbody>
+						{posts.map(this.renderPost)}
+					</tbody>
+				</table>
+				{(page + 1) < nbPages &&  <button onClick={this.moreClick}>More</button>}
+			</>
 		);
 	}
 }
