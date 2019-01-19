@@ -14,7 +14,7 @@ before_deploy:
   - yarn build
 deploy:
   provider: script
-  script: netlify deploy -s $NETLIFY_SITE_ID -a $NETLIFY_PUBLISH_KEY -d ./build
+  script: netlify deploy -s $NETLIFY_SITE_ID -a $NETLIFY_PUBLISH_KEY -d ./build --prod
   skip_cleanup: true
   on:
     branch: master
