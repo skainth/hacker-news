@@ -10,6 +10,7 @@ const transformSearchResponse = data => {
 	hits.forEach(post => {
 		const postData = {};
 		attrs.forEach(attr => postData[attr] = post[attr]);
+		postData['host'] =  post.url? (new URL(post.url).host) : '';
 		posts.push(postData);
 	});
 	return posts;

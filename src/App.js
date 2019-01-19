@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Redirect, Switch } from 'react-router-dom';
 
-import Header from './Header';
-import NewsContainer from './containers/NewsContainer';
+import Header from './components/Header';
+import NewsContainer from './containers/NewsContainer/index';
 
 class App extends Component{
 	render(){

@@ -51,320 +51,374 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": <tbody>
-        <tr>
-          <td>
-            <span>
+      "children": Array [
+        <div
+          className="row evenRow"
+        >
+          <span
+            className="firstClass"
+          >
+            <span
+              className="info comments"
+            >
               0
             </span>
-            <span>
+            <span
+              className="points"
+            >
               6
             </span>
-            <button
+            <span
+              className="info upvote"
               data-objectid="18937464"
               data-upvotecount={6}
               onClick={[MockFunction]}
             >
-              ^
-            </button>
-            <a
-              href="https://css-irl.info/animating-css-grid/"
+              ▲
+            </span>
+            <span
+              className="title"
             >
-              Animating CSS Grid
-            </a>
-            by
-            <span>
-              skilled
+              <a
+                aria-label="Animating CSS Grid"
+                href="https://css-irl.info/animating-css-grid/"
+              >
+                Animating CSS Grid
+              </a>
+               
             </span>
             <span>
+              (
+              <a
+                className="info"
+                href="https://css-irl.info/animating-css-grid/"
+              />
+              ) 
+            </span>
+          </span>
+          <span
+            className="secondClass"
+          >
+            <span
+              className="info"
+            >
+              by 
+              <span
+                className="title"
+              >
+                skilled
+              </span>
+                
+            </span>
+            <span
+              className="info"
+            >
               3 hours ago
             </span>
-            [
-            <button
-              data-objectid="18937464"
-              onClick={[MockFunction]}
+            <span
+              className="info hidepost helper-spacing-left"
             >
-              hide
-            </button>
-            ]
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <span />
-            <span>
+              [ 
+              <span
+                className="title"
+                data-objectid="18937464"
+                onClick={[MockFunction]}
+              >
+                hide
+              </span>
+               ]
+            </span>
+          </span>
+        </div>,
+        <div
+          className="row oddRow"
+        >
+          <span
+            className="firstClass"
+          >
+            <span
+              className="info comments"
+            />
+            <span
+              className="points"
+            >
               1
             </span>
-            <button
+            <span
+              className="info upvote"
               data-objectid="18937455"
               data-upvotecount={1}
               onClick={[MockFunction]}
             >
-              ^
-            </button>
-            <a
-              href="http://www.irisonboard.com/careers/"
+              ▲
+            </span>
+            <span
+              className="title"
             >
-              Iris Automation Is Hiring a Computer Vision Expert – AI for Drones
-            </a>
-            by
-            <span>
-              aharm
-            </span>
-            <span>
-              3 hours ago
-            </span>
-            [
-            <button
-              data-objectid="18937455"
-              onClick={[MockFunction]}
-            >
-              hide
-            </button>
-            ]
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <span>
-              2
-            </span>
-            <span>
-              8
-            </span>
-            <button
-              data-objectid="18937278"
-              data-upvotecount={8}
-              onClick={[MockFunction]}
-            >
-              ^
-            </button>
-            <a
-              href="https://github.blog/2019-01-16-dashboard-ui-refresh/"
-            >
-              GitHub dashboard UI refresh
-            </a>
-            by
-            <span>
-              rococode
-            </span>
-            <span>
-              3 hours ago
-            </span>
-            [
-            <button
-              data-objectid="18937278"
-              onClick={[MockFunction]}
-            >
-              hide
-            </button>
-            ]
-          </td>
-        </tr>
-      </tbody>,
-    },
-    "ref": null,
-    "rendered": Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": Array [
-          <tr>
-            <td>
-              <span>
-                0
-              </span>
-              <span>
-                6
-              </span>
-              <button
-                data-objectid="18937464"
-                data-upvotecount={6}
-                onClick={[MockFunction]}
-              >
-                ^
-              </button>
               <a
-                href="https://css-irl.info/animating-css-grid/"
-              >
-                Animating CSS Grid
-              </a>
-              by
-              <span>
-                skilled
-              </span>
-              <span>
-                3 hours ago
-              </span>
-              [
-              <button
-                data-objectid="18937464"
-                onClick={[MockFunction]}
-              >
-                hide
-              </button>
-              ]
-            </td>
-          </tr>,
-          <tr>
-            <td>
-              <span />
-              <span>
-                1
-              </span>
-              <button
-                data-objectid="18937455"
-                data-upvotecount={1}
-                onClick={[MockFunction]}
-              >
-                ^
-              </button>
-              <a
+                aria-label="Iris Automation Is Hiring a Computer Vision Expert – AI for Drones"
                 href="http://www.irisonboard.com/careers/"
               >
                 Iris Automation Is Hiring a Computer Vision Expert – AI for Drones
               </a>
-              by
-              <span>
+               
+            </span>
+            <span>
+              (
+              <a
+                className="info"
+                href="http://www.irisonboard.com/careers/"
+              />
+              ) 
+            </span>
+          </span>
+          <span
+            className="secondClass"
+          >
+            <span
+              className="info"
+            >
+              by 
+              <span
+                className="title"
+              >
                 aharm
               </span>
-              <span>
-                3 hours ago
-              </span>
-              [
-              <button
+                
+            </span>
+            <span
+              className="info"
+            >
+              3 hours ago
+            </span>
+            <span
+              className="info hidepost helper-spacing-left"
+            >
+              [ 
+              <span
+                className="title"
                 data-objectid="18937455"
                 onClick={[MockFunction]}
               >
                 hide
-              </button>
-              ]
-            </td>
-          </tr>,
-          <tr>
-            <td>
-              <span>
-                2
               </span>
-              <span>
-                8
-              </span>
-              <button
-                data-objectid="18937278"
-                data-upvotecount={8}
-                onClick={[MockFunction]}
-              >
-                ^
-              </button>
+               ]
+            </span>
+          </span>
+        </div>,
+        <div
+          className="row evenRow"
+        >
+          <span
+            className="firstClass"
+          >
+            <span
+              className="info comments"
+            >
+              2
+            </span>
+            <span
+              className="points"
+            >
+              8
+            </span>
+            <span
+              className="info upvote"
+              data-objectid="18937278"
+              data-upvotecount={8}
+              onClick={[MockFunction]}
+            >
+              ▲
+            </span>
+            <span
+              className="title"
+            >
               <a
+                aria-label="GitHub dashboard UI refresh"
                 href="https://github.blog/2019-01-16-dashboard-ui-refresh/"
               >
                 GitHub dashboard UI refresh
               </a>
-              by
-              <span>
+               
+            </span>
+            <span>
+              (
+              <a
+                className="info"
+                href="https://github.blog/2019-01-16-dashboard-ui-refresh/"
+              />
+              ) 
+            </span>
+          </span>
+          <span
+            className="secondClass"
+          >
+            <span
+              className="info"
+            >
+              by 
+              <span
+                className="title"
+              >
                 rococode
               </span>
-              <span>
-                3 hours ago
-              </span>
-              [
-              <button
+                
+            </span>
+            <span
+              className="info"
+            >
+              3 hours ago
+            </span>
+            <span
+              className="info hidepost helper-spacing-left"
+            >
+              [ 
+              <span
+                className="title"
                 data-objectid="18937278"
                 onClick={[MockFunction]}
               >
                 hide
-              </button>
-              ]
-            </td>
-          </tr>,
-        ],
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": "18937464",
-          "nodeType": "host",
-          "props": Object {
-            "children": <td>
-              <span>
+              </span>
+               ]
+            </span>
+          </span>
+        </div>,
+      ],
+      "className": "postsContainer",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "18937464",
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <span
+              className="firstClass"
+            >
+              <span
+                className="info comments"
+              >
                 0
               </span>
-              <span>
+              <span
+                className="points"
+              >
                 6
               </span>
-              <button
+              <span
+                className="info upvote"
                 data-objectid="18937464"
                 data-upvotecount={6}
                 onClick={[MockFunction]}
               >
-                ^
-              </button>
-              <a
-                href="https://css-irl.info/animating-css-grid/"
+                ▲
+              </span>
+              <span
+                className="title"
               >
-                Animating CSS Grid
-              </a>
-              by
-              <span>
-                skilled
+                <a
+                  aria-label="Animating CSS Grid"
+                  href="https://css-irl.info/animating-css-grid/"
+                >
+                  Animating CSS Grid
+                </a>
+                 
               </span>
               <span>
+                (
+                <a
+                  className="info"
+                  href="https://css-irl.info/animating-css-grid/"
+                />
+                ) 
+              </span>
+            </span>,
+            <span
+              className="secondClass"
+            >
+              <span
+                className="info"
+              >
+                by 
+                <span
+                  className="title"
+                >
+                  skilled
+                </span>
+                  
+              </span>
+              <span
+                className="info"
+              >
                 3 hours ago
               </span>
-              [
-              <button
-                data-objectid="18937464"
-                onClick={[MockFunction]}
+              <span
+                className="info hidepost helper-spacing-left"
               >
-                hide
-              </button>
-              ]
-            </td>,
-          },
-          "ref": null,
-          "rendered": Object {
+                [ 
+                <span
+                  className="title"
+                  data-objectid="18937464"
+                  onClick={[MockFunction]}
+                >
+                  hide
+                </span>
+                 ]
+              </span>
+            </span>,
+          ],
+          "className": "row evenRow",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
             "instance": null,
             "key": undefined,
             "nodeType": "host",
             "props": Object {
               "children": Array [
-                <span>
+                <span
+                  className="info comments"
+                >
                   0
                 </span>,
-                <span>
+                <span
+                  className="points"
+                >
                   6
                 </span>,
-                <button
+                <span
+                  className="info upvote"
                   data-objectid="18937464"
                   data-upvotecount={6}
                   onClick={[MockFunction]}
                 >
-                  ^
-                </button>,
-                <a
-                  href="https://css-irl.info/animating-css-grid/"
+                  ▲
+                </span>,
+                <span
+                  className="title"
                 >
-                  Animating CSS Grid
-                </a>,
-                "by",
-                <span>
-                  skilled
+                  <a
+                    aria-label="Animating CSS Grid"
+                    href="https://css-irl.info/animating-css-grid/"
+                  >
+                    Animating CSS Grid
+                  </a>
+                   
                 </span>,
                 <span>
-                  3 hours ago
+                  (
+                  <a
+                    className="info"
+                    href="https://css-irl.info/animating-css-grid/"
+                  />
+                  ) 
                 </span>,
-                "[",
-                <button
-                  data-objectid="18937464"
-                  onClick={[MockFunction]}
-                >
-                  hide
-                </button>,
-                "]",
               ],
+              "className": "firstClass",
             },
             "ref": null,
             "rendered": Array [
@@ -374,6 +428,7 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "children": 0,
+                  "className": "info comments",
                 },
                 "ref": null,
                 "rendered": 0,
@@ -385,6 +440,7 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "children": 6,
+                  "className": "points",
                 },
                 "ref": null,
                 "rendered": 6,
@@ -395,37 +451,161 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "^",
+                  "children": "▲",
+                  "className": "info upvote",
                   "data-objectid": "18937464",
                   "data-upvotecount": 6,
                   "onClick": [MockFunction],
                 },
                 "ref": null,
-                "rendered": "^",
-                "type": "button",
+                "rendered": "▲",
+                "type": "span",
               },
               Object {
                 "instance": null,
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "Animating CSS Grid",
-                  "href": "https://css-irl.info/animating-css-grid/",
+                  "children": Array [
+                    <a
+                      aria-label="Animating CSS Grid"
+                      href="https://css-irl.info/animating-css-grid/"
+                    >
+                      Animating CSS Grid
+                    </a>,
+                    " ",
+                  ],
+                  "className": "title",
                 },
                 "ref": null,
-                "rendered": "Animating CSS Grid",
-                "type": "a",
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "aria-label": "Animating CSS Grid",
+                      "children": "Animating CSS Grid",
+                      "href": "https://css-irl.info/animating-css-grid/",
+                    },
+                    "ref": null,
+                    "rendered": "Animating CSS Grid",
+                    "type": "a",
+                  },
+                  " ",
+                ],
+                "type": "span",
               },
-              "by",
               Object {
                 "instance": null,
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "skilled",
+                  "children": Array [
+                    "(",
+                    <a
+                      className="info"
+                      href="https://css-irl.info/animating-css-grid/"
+                    />,
+                    ") ",
+                  ],
                 },
                 "ref": null,
-                "rendered": "skilled",
+                "rendered": Array [
+                  "(",
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": undefined,
+                      "className": "info",
+                      "href": "https://css-irl.info/animating-css-grid/",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "a",
+                  },
+                  ") ",
+                ],
+                "type": "span",
+              },
+            ],
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <span
+                  className="info"
+                >
+                  by 
+                  <span
+                    className="title"
+                  >
+                    skilled
+                  </span>
+                    
+                </span>,
+                <span
+                  className="info"
+                >
+                  3 hours ago
+                </span>,
+                <span
+                  className="info hidepost helper-spacing-left"
+                >
+                  [ 
+                  <span
+                    className="title"
+                    data-objectid="18937464"
+                    onClick={[MockFunction]}
+                  >
+                    hide
+                  </span>
+                   ]
+                </span>,
+              ],
+              "className": "secondClass",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "by ",
+                    <span
+                      className="title"
+                    >
+                      skilled
+                    </span>,
+                    "  ",
+                  ],
+                  "className": "info",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "by ",
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "skilled",
+                      "className": "title",
+                    },
+                    "ref": null,
+                    "rendered": "skilled",
+                    "type": "span",
+                  },
+                  "  ",
+                ],
                 "type": "span",
               },
               Object {
@@ -434,109 +614,183 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "children": "3 hours ago",
+                  "className": "info",
                 },
                 "ref": null,
                 "rendered": "3 hours ago",
                 "type": "span",
               },
-              "[",
               Object {
                 "instance": null,
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "hide",
-                  "data-objectid": "18937464",
-                  "onClick": [MockFunction],
+                  "children": Array [
+                    "[ ",
+                    <span
+                      className="title"
+                      data-objectid="18937464"
+                      onClick={[MockFunction]}
+                    >
+                      hide
+                    </span>,
+                    " ]",
+                  ],
+                  "className": "info hidepost helper-spacing-left",
                 },
                 "ref": null,
-                "rendered": "hide",
-                "type": "button",
+                "rendered": Array [
+                  "[ ",
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "hide",
+                      "className": "title",
+                      "data-objectid": "18937464",
+                      "onClick": [MockFunction],
+                    },
+                    "ref": null,
+                    "rendered": "hide",
+                    "type": "span",
+                  },
+                  " ]",
+                ],
+                "type": "span",
               },
-              "]",
             ],
-            "type": "td",
+            "type": "span",
           },
-          "type": "tr",
-        },
-        Object {
-          "instance": null,
-          "key": "18937455",
-          "nodeType": "host",
-          "props": Object {
-            "children": <td>
-              <span />
-              <span>
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": "18937455",
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <span
+              className="firstClass"
+            >
+              <span
+                className="info comments"
+              />
+              <span
+                className="points"
+              >
                 1
               </span>
-              <button
+              <span
+                className="info upvote"
                 data-objectid="18937455"
                 data-upvotecount={1}
                 onClick={[MockFunction]}
               >
-                ^
-              </button>
-              <a
-                href="http://www.irisonboard.com/careers/"
+                ▲
+              </span>
+              <span
+                className="title"
               >
-                Iris Automation Is Hiring a Computer Vision Expert – AI for Drones
-              </a>
-              by
-              <span>
-                aharm
+                <a
+                  aria-label="Iris Automation Is Hiring a Computer Vision Expert – AI for Drones"
+                  href="http://www.irisonboard.com/careers/"
+                >
+                  Iris Automation Is Hiring a Computer Vision Expert – AI for Drones
+                </a>
+                 
               </span>
               <span>
+                (
+                <a
+                  className="info"
+                  href="http://www.irisonboard.com/careers/"
+                />
+                ) 
+              </span>
+            </span>,
+            <span
+              className="secondClass"
+            >
+              <span
+                className="info"
+              >
+                by 
+                <span
+                  className="title"
+                >
+                  aharm
+                </span>
+                  
+              </span>
+              <span
+                className="info"
+              >
                 3 hours ago
               </span>
-              [
-              <button
-                data-objectid="18937455"
-                onClick={[MockFunction]}
+              <span
+                className="info hidepost helper-spacing-left"
               >
-                hide
-              </button>
-              ]
-            </td>,
-          },
-          "ref": null,
-          "rendered": Object {
+                [ 
+                <span
+                  className="title"
+                  data-objectid="18937455"
+                  onClick={[MockFunction]}
+                >
+                  hide
+                </span>
+                 ]
+              </span>
+            </span>,
+          ],
+          "className": "row oddRow",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
             "instance": null,
             "key": undefined,
             "nodeType": "host",
             "props": Object {
               "children": Array [
-                <span />,
-                <span>
+                <span
+                  className="info comments"
+                />,
+                <span
+                  className="points"
+                >
                   1
                 </span>,
-                <button
+                <span
+                  className="info upvote"
                   data-objectid="18937455"
                   data-upvotecount={1}
                   onClick={[MockFunction]}
                 >
-                  ^
-                </button>,
-                <a
-                  href="http://www.irisonboard.com/careers/"
+                  ▲
+                </span>,
+                <span
+                  className="title"
                 >
-                  Iris Automation Is Hiring a Computer Vision Expert – AI for Drones
-                </a>,
-                "by",
-                <span>
-                  aharm
+                  <a
+                    aria-label="Iris Automation Is Hiring a Computer Vision Expert – AI for Drones"
+                    href="http://www.irisonboard.com/careers/"
+                  >
+                    Iris Automation Is Hiring a Computer Vision Expert – AI for Drones
+                  </a>
+                   
                 </span>,
                 <span>
-                  3 hours ago
+                  (
+                  <a
+                    className="info"
+                    href="http://www.irisonboard.com/careers/"
+                  />
+                  ) 
                 </span>,
-                "[",
-                <button
-                  data-objectid="18937455"
-                  onClick={[MockFunction]}
-                >
-                  hide
-                </button>,
-                "]",
               ],
+              "className": "firstClass",
             },
             "ref": null,
             "rendered": Array [
@@ -546,6 +800,7 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "children": null,
+                  "className": "info comments",
                 },
                 "ref": null,
                 "rendered": null,
@@ -557,6 +812,7 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "children": 1,
+                  "className": "points",
                 },
                 "ref": null,
                 "rendered": 1,
@@ -567,37 +823,161 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "^",
+                  "children": "▲",
+                  "className": "info upvote",
                   "data-objectid": "18937455",
                   "data-upvotecount": 1,
                   "onClick": [MockFunction],
                 },
                 "ref": null,
-                "rendered": "^",
-                "type": "button",
+                "rendered": "▲",
+                "type": "span",
               },
               Object {
                 "instance": null,
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "Iris Automation Is Hiring a Computer Vision Expert – AI for Drones",
-                  "href": "http://www.irisonboard.com/careers/",
+                  "children": Array [
+                    <a
+                      aria-label="Iris Automation Is Hiring a Computer Vision Expert – AI for Drones"
+                      href="http://www.irisonboard.com/careers/"
+                    >
+                      Iris Automation Is Hiring a Computer Vision Expert – AI for Drones
+                    </a>,
+                    " ",
+                  ],
+                  "className": "title",
                 },
                 "ref": null,
-                "rendered": "Iris Automation Is Hiring a Computer Vision Expert – AI for Drones",
-                "type": "a",
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "aria-label": "Iris Automation Is Hiring a Computer Vision Expert – AI for Drones",
+                      "children": "Iris Automation Is Hiring a Computer Vision Expert – AI for Drones",
+                      "href": "http://www.irisonboard.com/careers/",
+                    },
+                    "ref": null,
+                    "rendered": "Iris Automation Is Hiring a Computer Vision Expert – AI for Drones",
+                    "type": "a",
+                  },
+                  " ",
+                ],
+                "type": "span",
               },
-              "by",
               Object {
                 "instance": null,
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "aharm",
+                  "children": Array [
+                    "(",
+                    <a
+                      className="info"
+                      href="http://www.irisonboard.com/careers/"
+                    />,
+                    ") ",
+                  ],
                 },
                 "ref": null,
-                "rendered": "aharm",
+                "rendered": Array [
+                  "(",
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": undefined,
+                      "className": "info",
+                      "href": "http://www.irisonboard.com/careers/",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "a",
+                  },
+                  ") ",
+                ],
+                "type": "span",
+              },
+            ],
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <span
+                  className="info"
+                >
+                  by 
+                  <span
+                    className="title"
+                  >
+                    aharm
+                  </span>
+                    
+                </span>,
+                <span
+                  className="info"
+                >
+                  3 hours ago
+                </span>,
+                <span
+                  className="info hidepost helper-spacing-left"
+                >
+                  [ 
+                  <span
+                    className="title"
+                    data-objectid="18937455"
+                    onClick={[MockFunction]}
+                  >
+                    hide
+                  </span>
+                   ]
+                </span>,
+              ],
+              "className": "secondClass",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "by ",
+                    <span
+                      className="title"
+                    >
+                      aharm
+                    </span>,
+                    "  ",
+                  ],
+                  "className": "info",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "by ",
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "aharm",
+                      "className": "title",
+                    },
+                    "ref": null,
+                    "rendered": "aharm",
+                    "type": "span",
+                  },
+                  "  ",
+                ],
                 "type": "span",
               },
               Object {
@@ -606,113 +986,187 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "children": "3 hours ago",
+                  "className": "info",
                 },
                 "ref": null,
                 "rendered": "3 hours ago",
                 "type": "span",
               },
-              "[",
               Object {
                 "instance": null,
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "hide",
-                  "data-objectid": "18937455",
-                  "onClick": [MockFunction],
+                  "children": Array [
+                    "[ ",
+                    <span
+                      className="title"
+                      data-objectid="18937455"
+                      onClick={[MockFunction]}
+                    >
+                      hide
+                    </span>,
+                    " ]",
+                  ],
+                  "className": "info hidepost helper-spacing-left",
                 },
                 "ref": null,
-                "rendered": "hide",
-                "type": "button",
+                "rendered": Array [
+                  "[ ",
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "hide",
+                      "className": "title",
+                      "data-objectid": "18937455",
+                      "onClick": [MockFunction],
+                    },
+                    "ref": null,
+                    "rendered": "hide",
+                    "type": "span",
+                  },
+                  " ]",
+                ],
+                "type": "span",
               },
-              "]",
             ],
-            "type": "td",
+            "type": "span",
           },
-          "type": "tr",
-        },
-        Object {
-          "instance": null,
-          "key": "18937278",
-          "nodeType": "host",
-          "props": Object {
-            "children": <td>
-              <span>
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": "18937278",
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <span
+              className="firstClass"
+            >
+              <span
+                className="info comments"
+              >
                 2
               </span>
-              <span>
+              <span
+                className="points"
+              >
                 8
               </span>
-              <button
+              <span
+                className="info upvote"
                 data-objectid="18937278"
                 data-upvotecount={8}
                 onClick={[MockFunction]}
               >
-                ^
-              </button>
-              <a
-                href="https://github.blog/2019-01-16-dashboard-ui-refresh/"
+                ▲
+              </span>
+              <span
+                className="title"
               >
-                GitHub dashboard UI refresh
-              </a>
-              by
-              <span>
-                rococode
+                <a
+                  aria-label="GitHub dashboard UI refresh"
+                  href="https://github.blog/2019-01-16-dashboard-ui-refresh/"
+                >
+                  GitHub dashboard UI refresh
+                </a>
+                 
               </span>
               <span>
+                (
+                <a
+                  className="info"
+                  href="https://github.blog/2019-01-16-dashboard-ui-refresh/"
+                />
+                ) 
+              </span>
+            </span>,
+            <span
+              className="secondClass"
+            >
+              <span
+                className="info"
+              >
+                by 
+                <span
+                  className="title"
+                >
+                  rococode
+                </span>
+                  
+              </span>
+              <span
+                className="info"
+              >
                 3 hours ago
               </span>
-              [
-              <button
-                data-objectid="18937278"
-                onClick={[MockFunction]}
+              <span
+                className="info hidepost helper-spacing-left"
               >
-                hide
-              </button>
-              ]
-            </td>,
-          },
-          "ref": null,
-          "rendered": Object {
+                [ 
+                <span
+                  className="title"
+                  data-objectid="18937278"
+                  onClick={[MockFunction]}
+                >
+                  hide
+                </span>
+                 ]
+              </span>
+            </span>,
+          ],
+          "className": "row evenRow",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
             "instance": null,
             "key": undefined,
             "nodeType": "host",
             "props": Object {
               "children": Array [
-                <span>
+                <span
+                  className="info comments"
+                >
                   2
                 </span>,
-                <span>
+                <span
+                  className="points"
+                >
                   8
                 </span>,
-                <button
+                <span
+                  className="info upvote"
                   data-objectid="18937278"
                   data-upvotecount={8}
                   onClick={[MockFunction]}
                 >
-                  ^
-                </button>,
-                <a
-                  href="https://github.blog/2019-01-16-dashboard-ui-refresh/"
+                  ▲
+                </span>,
+                <span
+                  className="title"
                 >
-                  GitHub dashboard UI refresh
-                </a>,
-                "by",
-                <span>
-                  rococode
+                  <a
+                    aria-label="GitHub dashboard UI refresh"
+                    href="https://github.blog/2019-01-16-dashboard-ui-refresh/"
+                  >
+                    GitHub dashboard UI refresh
+                  </a>
+                   
                 </span>,
                 <span>
-                  3 hours ago
+                  (
+                  <a
+                    className="info"
+                    href="https://github.blog/2019-01-16-dashboard-ui-refresh/"
+                  />
+                  ) 
                 </span>,
-                "[",
-                <button
-                  data-objectid="18937278"
-                  onClick={[MockFunction]}
-                >
-                  hide
-                </button>,
-                "]",
               ],
+              "className": "firstClass",
             },
             "ref": null,
             "rendered": Array [
@@ -722,6 +1176,7 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "children": 2,
+                  "className": "info comments",
                 },
                 "ref": null,
                 "rendered": 2,
@@ -733,6 +1188,7 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "children": 8,
+                  "className": "points",
                 },
                 "ref": null,
                 "rendered": 8,
@@ -743,37 +1199,161 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "^",
+                  "children": "▲",
+                  "className": "info upvote",
                   "data-objectid": "18937278",
                   "data-upvotecount": 8,
                   "onClick": [MockFunction],
                 },
                 "ref": null,
-                "rendered": "^",
-                "type": "button",
+                "rendered": "▲",
+                "type": "span",
               },
               Object {
                 "instance": null,
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "GitHub dashboard UI refresh",
-                  "href": "https://github.blog/2019-01-16-dashboard-ui-refresh/",
+                  "children": Array [
+                    <a
+                      aria-label="GitHub dashboard UI refresh"
+                      href="https://github.blog/2019-01-16-dashboard-ui-refresh/"
+                    >
+                      GitHub dashboard UI refresh
+                    </a>,
+                    " ",
+                  ],
+                  "className": "title",
                 },
                 "ref": null,
-                "rendered": "GitHub dashboard UI refresh",
-                "type": "a",
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "aria-label": "GitHub dashboard UI refresh",
+                      "children": "GitHub dashboard UI refresh",
+                      "href": "https://github.blog/2019-01-16-dashboard-ui-refresh/",
+                    },
+                    "ref": null,
+                    "rendered": "GitHub dashboard UI refresh",
+                    "type": "a",
+                  },
+                  " ",
+                ],
+                "type": "span",
               },
-              "by",
               Object {
                 "instance": null,
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "rococode",
+                  "children": Array [
+                    "(",
+                    <a
+                      className="info"
+                      href="https://github.blog/2019-01-16-dashboard-ui-refresh/"
+                    />,
+                    ") ",
+                  ],
                 },
                 "ref": null,
-                "rendered": "rococode",
+                "rendered": Array [
+                  "(",
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": undefined,
+                      "className": "info",
+                      "href": "https://github.blog/2019-01-16-dashboard-ui-refresh/",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "a",
+                  },
+                  ") ",
+                ],
+                "type": "span",
+              },
+            ],
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <span
+                  className="info"
+                >
+                  by 
+                  <span
+                    className="title"
+                  >
+                    rococode
+                  </span>
+                    
+                </span>,
+                <span
+                  className="info"
+                >
+                  3 hours ago
+                </span>,
+                <span
+                  className="info hidepost helper-spacing-left"
+                >
+                  [ 
+                  <span
+                    className="title"
+                    data-objectid="18937278"
+                    onClick={[MockFunction]}
+                  >
+                    hide
+                  </span>
+                   ]
+                </span>,
+              ],
+              "className": "secondClass",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "by ",
+                    <span
+                      className="title"
+                    >
+                      rococode
+                    </span>,
+                    "  ",
+                  ],
+                  "className": "info",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "by ",
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "rococode",
+                      "className": "title",
+                    },
+                    "ref": null,
+                    "rendered": "rococode",
+                    "type": "span",
+                  },
+                  "  ",
+                ],
                 "type": "span",
               },
               Object {
@@ -782,35 +1362,59 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "children": "3 hours ago",
+                  "className": "info",
                 },
                 "ref": null,
                 "rendered": "3 hours ago",
                 "type": "span",
               },
-              "[",
               Object {
                 "instance": null,
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "hide",
-                  "data-objectid": "18937278",
-                  "onClick": [MockFunction],
+                  "children": Array [
+                    "[ ",
+                    <span
+                      className="title"
+                      data-objectid="18937278"
+                      onClick={[MockFunction]}
+                    >
+                      hide
+                    </span>,
+                    " ]",
+                  ],
+                  "className": "info hidepost helper-spacing-left",
                 },
                 "ref": null,
-                "rendered": "hide",
-                "type": "button",
+                "rendered": Array [
+                  "[ ",
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "hide",
+                      "className": "title",
+                      "data-objectid": "18937278",
+                      "onClick": [MockFunction],
+                    },
+                    "ref": null,
+                    "rendered": "hide",
+                    "type": "span",
+                  },
+                  " ]",
+                ],
+                "type": "span",
               },
-              "]",
             ],
-            "type": "td",
+            "type": "span",
           },
-          "type": "tr",
-        },
-      ],
-      "type": "tbody",
-    },
-    "type": "table",
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
@@ -818,320 +1422,374 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": <tbody>
-          <tr>
-            <td>
-              <span>
+        "children": Array [
+          <div
+            className="row evenRow"
+          >
+            <span
+              className="firstClass"
+            >
+              <span
+                className="info comments"
+              >
                 0
               </span>
-              <span>
+              <span
+                className="points"
+              >
                 6
               </span>
-              <button
+              <span
+                className="info upvote"
                 data-objectid="18937464"
                 data-upvotecount={6}
                 onClick={[MockFunction]}
               >
-                ^
-              </button>
-              <a
-                href="https://css-irl.info/animating-css-grid/"
+                ▲
+              </span>
+              <span
+                className="title"
               >
-                Animating CSS Grid
-              </a>
-              by
-              <span>
-                skilled
+                <a
+                  aria-label="Animating CSS Grid"
+                  href="https://css-irl.info/animating-css-grid/"
+                >
+                  Animating CSS Grid
+                </a>
+                 
               </span>
               <span>
+                (
+                <a
+                  className="info"
+                  href="https://css-irl.info/animating-css-grid/"
+                />
+                ) 
+              </span>
+            </span>
+            <span
+              className="secondClass"
+            >
+              <span
+                className="info"
+              >
+                by 
+                <span
+                  className="title"
+                >
+                  skilled
+                </span>
+                  
+              </span>
+              <span
+                className="info"
+              >
                 3 hours ago
               </span>
-              [
-              <button
-                data-objectid="18937464"
-                onClick={[MockFunction]}
+              <span
+                className="info hidepost helper-spacing-left"
               >
-                hide
-              </button>
-              ]
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <span />
-              <span>
+                [ 
+                <span
+                  className="title"
+                  data-objectid="18937464"
+                  onClick={[MockFunction]}
+                >
+                  hide
+                </span>
+                 ]
+              </span>
+            </span>
+          </div>,
+          <div
+            className="row oddRow"
+          >
+            <span
+              className="firstClass"
+            >
+              <span
+                className="info comments"
+              />
+              <span
+                className="points"
+              >
                 1
               </span>
-              <button
+              <span
+                className="info upvote"
                 data-objectid="18937455"
                 data-upvotecount={1}
                 onClick={[MockFunction]}
               >
-                ^
-              </button>
-              <a
-                href="http://www.irisonboard.com/careers/"
+                ▲
+              </span>
+              <span
+                className="title"
               >
-                Iris Automation Is Hiring a Computer Vision Expert – AI for Drones
-              </a>
-              by
-              <span>
-                aharm
-              </span>
-              <span>
-                3 hours ago
-              </span>
-              [
-              <button
-                data-objectid="18937455"
-                onClick={[MockFunction]}
-              >
-                hide
-              </button>
-              ]
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <span>
-                2
-              </span>
-              <span>
-                8
-              </span>
-              <button
-                data-objectid="18937278"
-                data-upvotecount={8}
-                onClick={[MockFunction]}
-              >
-                ^
-              </button>
-              <a
-                href="https://github.blog/2019-01-16-dashboard-ui-refresh/"
-              >
-                GitHub dashboard UI refresh
-              </a>
-              by
-              <span>
-                rococode
-              </span>
-              <span>
-                3 hours ago
-              </span>
-              [
-              <button
-                data-objectid="18937278"
-                onClick={[MockFunction]}
-              >
-                hide
-              </button>
-              ]
-            </td>
-          </tr>
-        </tbody>,
-      },
-      "ref": null,
-      "rendered": Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": Array [
-            <tr>
-              <td>
-                <span>
-                  0
-                </span>
-                <span>
-                  6
-                </span>
-                <button
-                  data-objectid="18937464"
-                  data-upvotecount={6}
-                  onClick={[MockFunction]}
-                >
-                  ^
-                </button>
                 <a
-                  href="https://css-irl.info/animating-css-grid/"
-                >
-                  Animating CSS Grid
-                </a>
-                by
-                <span>
-                  skilled
-                </span>
-                <span>
-                  3 hours ago
-                </span>
-                [
-                <button
-                  data-objectid="18937464"
-                  onClick={[MockFunction]}
-                >
-                  hide
-                </button>
-                ]
-              </td>
-            </tr>,
-            <tr>
-              <td>
-                <span />
-                <span>
-                  1
-                </span>
-                <button
-                  data-objectid="18937455"
-                  data-upvotecount={1}
-                  onClick={[MockFunction]}
-                >
-                  ^
-                </button>
-                <a
+                  aria-label="Iris Automation Is Hiring a Computer Vision Expert – AI for Drones"
                   href="http://www.irisonboard.com/careers/"
                 >
                   Iris Automation Is Hiring a Computer Vision Expert – AI for Drones
                 </a>
-                by
-                <span>
+                 
+              </span>
+              <span>
+                (
+                <a
+                  className="info"
+                  href="http://www.irisonboard.com/careers/"
+                />
+                ) 
+              </span>
+            </span>
+            <span
+              className="secondClass"
+            >
+              <span
+                className="info"
+              >
+                by 
+                <span
+                  className="title"
+                >
                   aharm
                 </span>
-                <span>
-                  3 hours ago
-                </span>
-                [
-                <button
+                  
+              </span>
+              <span
+                className="info"
+              >
+                3 hours ago
+              </span>
+              <span
+                className="info hidepost helper-spacing-left"
+              >
+                [ 
+                <span
+                  className="title"
                   data-objectid="18937455"
                   onClick={[MockFunction]}
                 >
                   hide
-                </button>
-                ]
-              </td>
-            </tr>,
-            <tr>
-              <td>
-                <span>
-                  2
                 </span>
-                <span>
-                  8
-                </span>
-                <button
-                  data-objectid="18937278"
-                  data-upvotecount={8}
-                  onClick={[MockFunction]}
-                >
-                  ^
-                </button>
+                 ]
+              </span>
+            </span>
+          </div>,
+          <div
+            className="row evenRow"
+          >
+            <span
+              className="firstClass"
+            >
+              <span
+                className="info comments"
+              >
+                2
+              </span>
+              <span
+                className="points"
+              >
+                8
+              </span>
+              <span
+                className="info upvote"
+                data-objectid="18937278"
+                data-upvotecount={8}
+                onClick={[MockFunction]}
+              >
+                ▲
+              </span>
+              <span
+                className="title"
+              >
                 <a
+                  aria-label="GitHub dashboard UI refresh"
                   href="https://github.blog/2019-01-16-dashboard-ui-refresh/"
                 >
                   GitHub dashboard UI refresh
                 </a>
-                by
-                <span>
+                 
+              </span>
+              <span>
+                (
+                <a
+                  className="info"
+                  href="https://github.blog/2019-01-16-dashboard-ui-refresh/"
+                />
+                ) 
+              </span>
+            </span>
+            <span
+              className="secondClass"
+            >
+              <span
+                className="info"
+              >
+                by 
+                <span
+                  className="title"
+                >
                   rococode
                 </span>
-                <span>
-                  3 hours ago
-                </span>
-                [
-                <button
+                  
+              </span>
+              <span
+                className="info"
+              >
+                3 hours ago
+              </span>
+              <span
+                className="info hidepost helper-spacing-left"
+              >
+                [ 
+                <span
+                  className="title"
                   data-objectid="18937278"
                   onClick={[MockFunction]}
                 >
                   hide
-                </button>
-                ]
-              </td>
-            </tr>,
-          ],
-        },
-        "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": "18937464",
-            "nodeType": "host",
-            "props": Object {
-              "children": <td>
-                <span>
+                </span>
+                 ]
+              </span>
+            </span>
+          </div>,
+        ],
+        "className": "postsContainer",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "18937464",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <span
+                className="firstClass"
+              >
+                <span
+                  className="info comments"
+                >
                   0
                 </span>
-                <span>
+                <span
+                  className="points"
+                >
                   6
                 </span>
-                <button
+                <span
+                  className="info upvote"
                   data-objectid="18937464"
                   data-upvotecount={6}
                   onClick={[MockFunction]}
                 >
-                  ^
-                </button>
-                <a
-                  href="https://css-irl.info/animating-css-grid/"
+                  ▲
+                </span>
+                <span
+                  className="title"
                 >
-                  Animating CSS Grid
-                </a>
-                by
-                <span>
-                  skilled
+                  <a
+                    aria-label="Animating CSS Grid"
+                    href="https://css-irl.info/animating-css-grid/"
+                  >
+                    Animating CSS Grid
+                  </a>
+                   
                 </span>
                 <span>
+                  (
+                  <a
+                    className="info"
+                    href="https://css-irl.info/animating-css-grid/"
+                  />
+                  ) 
+                </span>
+              </span>,
+              <span
+                className="secondClass"
+              >
+                <span
+                  className="info"
+                >
+                  by 
+                  <span
+                    className="title"
+                  >
+                    skilled
+                  </span>
+                    
+                </span>
+                <span
+                  className="info"
+                >
                   3 hours ago
                 </span>
-                [
-                <button
-                  data-objectid="18937464"
-                  onClick={[MockFunction]}
+                <span
+                  className="info hidepost helper-spacing-left"
                 >
-                  hide
-                </button>
-                ]
-              </td>,
-            },
-            "ref": null,
-            "rendered": Object {
+                  [ 
+                  <span
+                    className="title"
+                    data-objectid="18937464"
+                    onClick={[MockFunction]}
+                  >
+                    hide
+                  </span>
+                   ]
+                </span>
+              </span>,
+            ],
+            "className": "row evenRow",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
               "instance": null,
               "key": undefined,
               "nodeType": "host",
               "props": Object {
                 "children": Array [
-                  <span>
+                  <span
+                    className="info comments"
+                  >
                     0
                   </span>,
-                  <span>
+                  <span
+                    className="points"
+                  >
                     6
                   </span>,
-                  <button
+                  <span
+                    className="info upvote"
                     data-objectid="18937464"
                     data-upvotecount={6}
                     onClick={[MockFunction]}
                   >
-                    ^
-                  </button>,
-                  <a
-                    href="https://css-irl.info/animating-css-grid/"
+                    ▲
+                  </span>,
+                  <span
+                    className="title"
                   >
-                    Animating CSS Grid
-                  </a>,
-                  "by",
-                  <span>
-                    skilled
+                    <a
+                      aria-label="Animating CSS Grid"
+                      href="https://css-irl.info/animating-css-grid/"
+                    >
+                      Animating CSS Grid
+                    </a>
+                     
                   </span>,
                   <span>
-                    3 hours ago
+                    (
+                    <a
+                      className="info"
+                      href="https://css-irl.info/animating-css-grid/"
+                    />
+                    ) 
                   </span>,
-                  "[",
-                  <button
-                    data-objectid="18937464"
-                    onClick={[MockFunction]}
-                  >
-                    hide
-                  </button>,
-                  "]",
                 ],
+                "className": "firstClass",
               },
               "ref": null,
               "rendered": Array [
@@ -1141,6 +1799,7 @@ ShallowWrapper {
                   "nodeType": "host",
                   "props": Object {
                     "children": 0,
+                    "className": "info comments",
                   },
                   "ref": null,
                   "rendered": 0,
@@ -1152,6 +1811,7 @@ ShallowWrapper {
                   "nodeType": "host",
                   "props": Object {
                     "children": 6,
+                    "className": "points",
                   },
                   "ref": null,
                   "rendered": 6,
@@ -1162,37 +1822,161 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "^",
+                    "children": "▲",
+                    "className": "info upvote",
                     "data-objectid": "18937464",
                     "data-upvotecount": 6,
                     "onClick": [MockFunction],
                   },
                   "ref": null,
-                  "rendered": "^",
-                  "type": "button",
+                  "rendered": "▲",
+                  "type": "span",
                 },
                 Object {
                   "instance": null,
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "Animating CSS Grid",
-                    "href": "https://css-irl.info/animating-css-grid/",
+                    "children": Array [
+                      <a
+                        aria-label="Animating CSS Grid"
+                        href="https://css-irl.info/animating-css-grid/"
+                      >
+                        Animating CSS Grid
+                      </a>,
+                      " ",
+                    ],
+                    "className": "title",
                   },
                   "ref": null,
-                  "rendered": "Animating CSS Grid",
-                  "type": "a",
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "aria-label": "Animating CSS Grid",
+                        "children": "Animating CSS Grid",
+                        "href": "https://css-irl.info/animating-css-grid/",
+                      },
+                      "ref": null,
+                      "rendered": "Animating CSS Grid",
+                      "type": "a",
+                    },
+                    " ",
+                  ],
+                  "type": "span",
                 },
-                "by",
                 Object {
                   "instance": null,
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "skilled",
+                    "children": Array [
+                      "(",
+                      <a
+                        className="info"
+                        href="https://css-irl.info/animating-css-grid/"
+                      />,
+                      ") ",
+                    ],
                   },
                   "ref": null,
-                  "rendered": "skilled",
+                  "rendered": Array [
+                    "(",
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": undefined,
+                        "className": "info",
+                        "href": "https://css-irl.info/animating-css-grid/",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "a",
+                    },
+                    ") ",
+                  ],
+                  "type": "span",
+                },
+              ],
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <span
+                    className="info"
+                  >
+                    by 
+                    <span
+                      className="title"
+                    >
+                      skilled
+                    </span>
+                      
+                  </span>,
+                  <span
+                    className="info"
+                  >
+                    3 hours ago
+                  </span>,
+                  <span
+                    className="info hidepost helper-spacing-left"
+                  >
+                    [ 
+                    <span
+                      className="title"
+                      data-objectid="18937464"
+                      onClick={[MockFunction]}
+                    >
+                      hide
+                    </span>
+                     ]
+                  </span>,
+                ],
+                "className": "secondClass",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "by ",
+                      <span
+                        className="title"
+                      >
+                        skilled
+                      </span>,
+                      "  ",
+                    ],
+                    "className": "info",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "by ",
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "skilled",
+                        "className": "title",
+                      },
+                      "ref": null,
+                      "rendered": "skilled",
+                      "type": "span",
+                    },
+                    "  ",
+                  ],
                   "type": "span",
                 },
                 Object {
@@ -1201,109 +1985,183 @@ ShallowWrapper {
                   "nodeType": "host",
                   "props": Object {
                     "children": "3 hours ago",
+                    "className": "info",
                   },
                   "ref": null,
                   "rendered": "3 hours ago",
                   "type": "span",
                 },
-                "[",
                 Object {
                   "instance": null,
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "hide",
-                    "data-objectid": "18937464",
-                    "onClick": [MockFunction],
+                    "children": Array [
+                      "[ ",
+                      <span
+                        className="title"
+                        data-objectid="18937464"
+                        onClick={[MockFunction]}
+                      >
+                        hide
+                      </span>,
+                      " ]",
+                    ],
+                    "className": "info hidepost helper-spacing-left",
                   },
                   "ref": null,
-                  "rendered": "hide",
-                  "type": "button",
+                  "rendered": Array [
+                    "[ ",
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "hide",
+                        "className": "title",
+                        "data-objectid": "18937464",
+                        "onClick": [MockFunction],
+                      },
+                      "ref": null,
+                      "rendered": "hide",
+                      "type": "span",
+                    },
+                    " ]",
+                  ],
+                  "type": "span",
                 },
-                "]",
               ],
-              "type": "td",
+              "type": "span",
             },
-            "type": "tr",
-          },
-          Object {
-            "instance": null,
-            "key": "18937455",
-            "nodeType": "host",
-            "props": Object {
-              "children": <td>
-                <span />
-                <span>
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": "18937455",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <span
+                className="firstClass"
+              >
+                <span
+                  className="info comments"
+                />
+                <span
+                  className="points"
+                >
                   1
                 </span>
-                <button
+                <span
+                  className="info upvote"
                   data-objectid="18937455"
                   data-upvotecount={1}
                   onClick={[MockFunction]}
                 >
-                  ^
-                </button>
-                <a
-                  href="http://www.irisonboard.com/careers/"
+                  ▲
+                </span>
+                <span
+                  className="title"
                 >
-                  Iris Automation Is Hiring a Computer Vision Expert – AI for Drones
-                </a>
-                by
-                <span>
-                  aharm
+                  <a
+                    aria-label="Iris Automation Is Hiring a Computer Vision Expert – AI for Drones"
+                    href="http://www.irisonboard.com/careers/"
+                  >
+                    Iris Automation Is Hiring a Computer Vision Expert – AI for Drones
+                  </a>
+                   
                 </span>
                 <span>
+                  (
+                  <a
+                    className="info"
+                    href="http://www.irisonboard.com/careers/"
+                  />
+                  ) 
+                </span>
+              </span>,
+              <span
+                className="secondClass"
+              >
+                <span
+                  className="info"
+                >
+                  by 
+                  <span
+                    className="title"
+                  >
+                    aharm
+                  </span>
+                    
+                </span>
+                <span
+                  className="info"
+                >
                   3 hours ago
                 </span>
-                [
-                <button
-                  data-objectid="18937455"
-                  onClick={[MockFunction]}
+                <span
+                  className="info hidepost helper-spacing-left"
                 >
-                  hide
-                </button>
-                ]
-              </td>,
-            },
-            "ref": null,
-            "rendered": Object {
+                  [ 
+                  <span
+                    className="title"
+                    data-objectid="18937455"
+                    onClick={[MockFunction]}
+                  >
+                    hide
+                  </span>
+                   ]
+                </span>
+              </span>,
+            ],
+            "className": "row oddRow",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
               "instance": null,
               "key": undefined,
               "nodeType": "host",
               "props": Object {
                 "children": Array [
-                  <span />,
-                  <span>
+                  <span
+                    className="info comments"
+                  />,
+                  <span
+                    className="points"
+                  >
                     1
                   </span>,
-                  <button
+                  <span
+                    className="info upvote"
                     data-objectid="18937455"
                     data-upvotecount={1}
                     onClick={[MockFunction]}
                   >
-                    ^
-                  </button>,
-                  <a
-                    href="http://www.irisonboard.com/careers/"
+                    ▲
+                  </span>,
+                  <span
+                    className="title"
                   >
-                    Iris Automation Is Hiring a Computer Vision Expert – AI for Drones
-                  </a>,
-                  "by",
-                  <span>
-                    aharm
+                    <a
+                      aria-label="Iris Automation Is Hiring a Computer Vision Expert – AI for Drones"
+                      href="http://www.irisonboard.com/careers/"
+                    >
+                      Iris Automation Is Hiring a Computer Vision Expert – AI for Drones
+                    </a>
+                     
                   </span>,
                   <span>
-                    3 hours ago
+                    (
+                    <a
+                      className="info"
+                      href="http://www.irisonboard.com/careers/"
+                    />
+                    ) 
                   </span>,
-                  "[",
-                  <button
-                    data-objectid="18937455"
-                    onClick={[MockFunction]}
-                  >
-                    hide
-                  </button>,
-                  "]",
                 ],
+                "className": "firstClass",
               },
               "ref": null,
               "rendered": Array [
@@ -1313,6 +2171,7 @@ ShallowWrapper {
                   "nodeType": "host",
                   "props": Object {
                     "children": null,
+                    "className": "info comments",
                   },
                   "ref": null,
                   "rendered": null,
@@ -1324,6 +2183,7 @@ ShallowWrapper {
                   "nodeType": "host",
                   "props": Object {
                     "children": 1,
+                    "className": "points",
                   },
                   "ref": null,
                   "rendered": 1,
@@ -1334,37 +2194,161 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "^",
+                    "children": "▲",
+                    "className": "info upvote",
                     "data-objectid": "18937455",
                     "data-upvotecount": 1,
                     "onClick": [MockFunction],
                   },
                   "ref": null,
-                  "rendered": "^",
-                  "type": "button",
+                  "rendered": "▲",
+                  "type": "span",
                 },
                 Object {
                   "instance": null,
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "Iris Automation Is Hiring a Computer Vision Expert – AI for Drones",
-                    "href": "http://www.irisonboard.com/careers/",
+                    "children": Array [
+                      <a
+                        aria-label="Iris Automation Is Hiring a Computer Vision Expert – AI for Drones"
+                        href="http://www.irisonboard.com/careers/"
+                      >
+                        Iris Automation Is Hiring a Computer Vision Expert – AI for Drones
+                      </a>,
+                      " ",
+                    ],
+                    "className": "title",
                   },
                   "ref": null,
-                  "rendered": "Iris Automation Is Hiring a Computer Vision Expert – AI for Drones",
-                  "type": "a",
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "aria-label": "Iris Automation Is Hiring a Computer Vision Expert – AI for Drones",
+                        "children": "Iris Automation Is Hiring a Computer Vision Expert – AI for Drones",
+                        "href": "http://www.irisonboard.com/careers/",
+                      },
+                      "ref": null,
+                      "rendered": "Iris Automation Is Hiring a Computer Vision Expert – AI for Drones",
+                      "type": "a",
+                    },
+                    " ",
+                  ],
+                  "type": "span",
                 },
-                "by",
                 Object {
                   "instance": null,
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "aharm",
+                    "children": Array [
+                      "(",
+                      <a
+                        className="info"
+                        href="http://www.irisonboard.com/careers/"
+                      />,
+                      ") ",
+                    ],
                   },
                   "ref": null,
-                  "rendered": "aharm",
+                  "rendered": Array [
+                    "(",
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": undefined,
+                        "className": "info",
+                        "href": "http://www.irisonboard.com/careers/",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "a",
+                    },
+                    ") ",
+                  ],
+                  "type": "span",
+                },
+              ],
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <span
+                    className="info"
+                  >
+                    by 
+                    <span
+                      className="title"
+                    >
+                      aharm
+                    </span>
+                      
+                  </span>,
+                  <span
+                    className="info"
+                  >
+                    3 hours ago
+                  </span>,
+                  <span
+                    className="info hidepost helper-spacing-left"
+                  >
+                    [ 
+                    <span
+                      className="title"
+                      data-objectid="18937455"
+                      onClick={[MockFunction]}
+                    >
+                      hide
+                    </span>
+                     ]
+                  </span>,
+                ],
+                "className": "secondClass",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "by ",
+                      <span
+                        className="title"
+                      >
+                        aharm
+                      </span>,
+                      "  ",
+                    ],
+                    "className": "info",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "by ",
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "aharm",
+                        "className": "title",
+                      },
+                      "ref": null,
+                      "rendered": "aharm",
+                      "type": "span",
+                    },
+                    "  ",
+                  ],
                   "type": "span",
                 },
                 Object {
@@ -1373,113 +2357,187 @@ ShallowWrapper {
                   "nodeType": "host",
                   "props": Object {
                     "children": "3 hours ago",
+                    "className": "info",
                   },
                   "ref": null,
                   "rendered": "3 hours ago",
                   "type": "span",
                 },
-                "[",
                 Object {
                   "instance": null,
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "hide",
-                    "data-objectid": "18937455",
-                    "onClick": [MockFunction],
+                    "children": Array [
+                      "[ ",
+                      <span
+                        className="title"
+                        data-objectid="18937455"
+                        onClick={[MockFunction]}
+                      >
+                        hide
+                      </span>,
+                      " ]",
+                    ],
+                    "className": "info hidepost helper-spacing-left",
                   },
                   "ref": null,
-                  "rendered": "hide",
-                  "type": "button",
+                  "rendered": Array [
+                    "[ ",
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "hide",
+                        "className": "title",
+                        "data-objectid": "18937455",
+                        "onClick": [MockFunction],
+                      },
+                      "ref": null,
+                      "rendered": "hide",
+                      "type": "span",
+                    },
+                    " ]",
+                  ],
+                  "type": "span",
                 },
-                "]",
               ],
-              "type": "td",
+              "type": "span",
             },
-            "type": "tr",
-          },
-          Object {
-            "instance": null,
-            "key": "18937278",
-            "nodeType": "host",
-            "props": Object {
-              "children": <td>
-                <span>
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": "18937278",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <span
+                className="firstClass"
+              >
+                <span
+                  className="info comments"
+                >
                   2
                 </span>
-                <span>
+                <span
+                  className="points"
+                >
                   8
                 </span>
-                <button
+                <span
+                  className="info upvote"
                   data-objectid="18937278"
                   data-upvotecount={8}
                   onClick={[MockFunction]}
                 >
-                  ^
-                </button>
-                <a
-                  href="https://github.blog/2019-01-16-dashboard-ui-refresh/"
+                  ▲
+                </span>
+                <span
+                  className="title"
                 >
-                  GitHub dashboard UI refresh
-                </a>
-                by
-                <span>
-                  rococode
+                  <a
+                    aria-label="GitHub dashboard UI refresh"
+                    href="https://github.blog/2019-01-16-dashboard-ui-refresh/"
+                  >
+                    GitHub dashboard UI refresh
+                  </a>
+                   
                 </span>
                 <span>
+                  (
+                  <a
+                    className="info"
+                    href="https://github.blog/2019-01-16-dashboard-ui-refresh/"
+                  />
+                  ) 
+                </span>
+              </span>,
+              <span
+                className="secondClass"
+              >
+                <span
+                  className="info"
+                >
+                  by 
+                  <span
+                    className="title"
+                  >
+                    rococode
+                  </span>
+                    
+                </span>
+                <span
+                  className="info"
+                >
                   3 hours ago
                 </span>
-                [
-                <button
-                  data-objectid="18937278"
-                  onClick={[MockFunction]}
+                <span
+                  className="info hidepost helper-spacing-left"
                 >
-                  hide
-                </button>
-                ]
-              </td>,
-            },
-            "ref": null,
-            "rendered": Object {
+                  [ 
+                  <span
+                    className="title"
+                    data-objectid="18937278"
+                    onClick={[MockFunction]}
+                  >
+                    hide
+                  </span>
+                   ]
+                </span>
+              </span>,
+            ],
+            "className": "row evenRow",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
               "instance": null,
               "key": undefined,
               "nodeType": "host",
               "props": Object {
                 "children": Array [
-                  <span>
+                  <span
+                    className="info comments"
+                  >
                     2
                   </span>,
-                  <span>
+                  <span
+                    className="points"
+                  >
                     8
                   </span>,
-                  <button
+                  <span
+                    className="info upvote"
                     data-objectid="18937278"
                     data-upvotecount={8}
                     onClick={[MockFunction]}
                   >
-                    ^
-                  </button>,
-                  <a
-                    href="https://github.blog/2019-01-16-dashboard-ui-refresh/"
+                    ▲
+                  </span>,
+                  <span
+                    className="title"
                   >
-                    GitHub dashboard UI refresh
-                  </a>,
-                  "by",
-                  <span>
-                    rococode
+                    <a
+                      aria-label="GitHub dashboard UI refresh"
+                      href="https://github.blog/2019-01-16-dashboard-ui-refresh/"
+                    >
+                      GitHub dashboard UI refresh
+                    </a>
+                     
                   </span>,
                   <span>
-                    3 hours ago
+                    (
+                    <a
+                      className="info"
+                      href="https://github.blog/2019-01-16-dashboard-ui-refresh/"
+                    />
+                    ) 
                   </span>,
-                  "[",
-                  <button
-                    data-objectid="18937278"
-                    onClick={[MockFunction]}
-                  >
-                    hide
-                  </button>,
-                  "]",
                 ],
+                "className": "firstClass",
               },
               "ref": null,
               "rendered": Array [
@@ -1489,6 +2547,7 @@ ShallowWrapper {
                   "nodeType": "host",
                   "props": Object {
                     "children": 2,
+                    "className": "info comments",
                   },
                   "ref": null,
                   "rendered": 2,
@@ -1500,6 +2559,7 @@ ShallowWrapper {
                   "nodeType": "host",
                   "props": Object {
                     "children": 8,
+                    "className": "points",
                   },
                   "ref": null,
                   "rendered": 8,
@@ -1510,37 +2570,161 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "^",
+                    "children": "▲",
+                    "className": "info upvote",
                     "data-objectid": "18937278",
                     "data-upvotecount": 8,
                     "onClick": [MockFunction],
                   },
                   "ref": null,
-                  "rendered": "^",
-                  "type": "button",
+                  "rendered": "▲",
+                  "type": "span",
                 },
                 Object {
                   "instance": null,
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "GitHub dashboard UI refresh",
-                    "href": "https://github.blog/2019-01-16-dashboard-ui-refresh/",
+                    "children": Array [
+                      <a
+                        aria-label="GitHub dashboard UI refresh"
+                        href="https://github.blog/2019-01-16-dashboard-ui-refresh/"
+                      >
+                        GitHub dashboard UI refresh
+                      </a>,
+                      " ",
+                    ],
+                    "className": "title",
                   },
                   "ref": null,
-                  "rendered": "GitHub dashboard UI refresh",
-                  "type": "a",
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "aria-label": "GitHub dashboard UI refresh",
+                        "children": "GitHub dashboard UI refresh",
+                        "href": "https://github.blog/2019-01-16-dashboard-ui-refresh/",
+                      },
+                      "ref": null,
+                      "rendered": "GitHub dashboard UI refresh",
+                      "type": "a",
+                    },
+                    " ",
+                  ],
+                  "type": "span",
                 },
-                "by",
                 Object {
                   "instance": null,
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "rococode",
+                    "children": Array [
+                      "(",
+                      <a
+                        className="info"
+                        href="https://github.blog/2019-01-16-dashboard-ui-refresh/"
+                      />,
+                      ") ",
+                    ],
                   },
                   "ref": null,
-                  "rendered": "rococode",
+                  "rendered": Array [
+                    "(",
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": undefined,
+                        "className": "info",
+                        "href": "https://github.blog/2019-01-16-dashboard-ui-refresh/",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "a",
+                    },
+                    ") ",
+                  ],
+                  "type": "span",
+                },
+              ],
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <span
+                    className="info"
+                  >
+                    by 
+                    <span
+                      className="title"
+                    >
+                      rococode
+                    </span>
+                      
+                  </span>,
+                  <span
+                    className="info"
+                  >
+                    3 hours ago
+                  </span>,
+                  <span
+                    className="info hidepost helper-spacing-left"
+                  >
+                    [ 
+                    <span
+                      className="title"
+                      data-objectid="18937278"
+                      onClick={[MockFunction]}
+                    >
+                      hide
+                    </span>
+                     ]
+                  </span>,
+                ],
+                "className": "secondClass",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "by ",
+                      <span
+                        className="title"
+                      >
+                        rococode
+                      </span>,
+                      "  ",
+                    ],
+                    "className": "info",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "by ",
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "rococode",
+                        "className": "title",
+                      },
+                      "ref": null,
+                      "rendered": "rococode",
+                      "type": "span",
+                    },
+                    "  ",
+                  ],
                   "type": "span",
                 },
                 Object {
@@ -1549,35 +2733,59 @@ ShallowWrapper {
                   "nodeType": "host",
                   "props": Object {
                     "children": "3 hours ago",
+                    "className": "info",
                   },
                   "ref": null,
                   "rendered": "3 hours ago",
                   "type": "span",
                 },
-                "[",
                 Object {
                   "instance": null,
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "hide",
-                    "data-objectid": "18937278",
-                    "onClick": [MockFunction],
+                    "children": Array [
+                      "[ ",
+                      <span
+                        className="title"
+                        data-objectid="18937278"
+                        onClick={[MockFunction]}
+                      >
+                        hide
+                      </span>,
+                      " ]",
+                    ],
+                    "className": "info hidepost helper-spacing-left",
                   },
                   "ref": null,
-                  "rendered": "hide",
-                  "type": "button",
+                  "rendered": Array [
+                    "[ ",
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "hide",
+                        "className": "title",
+                        "data-objectid": "18937278",
+                        "onClick": [MockFunction],
+                      },
+                      "ref": null,
+                      "rendered": "hide",
+                      "type": "span",
+                    },
+                    " ]",
+                  ],
+                  "type": "span",
                 },
-                "]",
               ],
-              "type": "td",
+              "type": "span",
             },
-            "type": "tr",
-          },
-        ],
-        "type": "tbody",
-      },
-      "type": "table",
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
     },
   ],
   Symbol(enzyme.__options__): Object {
