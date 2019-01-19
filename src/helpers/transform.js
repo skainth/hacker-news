@@ -1,4 +1,5 @@
 import config from '../config';
+import moment from 'moment';
 
 const transformSearchResponse = data => {
 	const { hits = [] } = data;
@@ -11,6 +12,7 @@ const transformSearchResponse = data => {
 		const postData = {};
 		attrs.forEach(attr => postData[attr] = post[attr]);
 		postData['host'] =  post.url? (new URL(post.url).host) : '';
+		postData.time = moment(post.created_at).fromNow();
 		posts.push(postData);
 	});
 	return posts;

@@ -112,9 +112,7 @@ ShallowWrapper {
             </span>
             <span
               className="info"
-            >
-              3 hours ago
-            </span>
+            />
             <span
               className="info hidepost helper-spacing-left"
             >
@@ -188,9 +186,7 @@ ShallowWrapper {
             </span>
             <span
               className="info"
-            >
-              3 hours ago
-            </span>
+            />
             <span
               className="info hidepost helper-spacing-left"
             >
@@ -266,9 +262,7 @@ ShallowWrapper {
             </span>
             <span
               className="info"
-            >
-              3 hours ago
-            </span>
+            />
             <span
               className="info hidepost helper-spacing-left"
             >
@@ -352,9 +346,7 @@ ShallowWrapper {
               </span>
               <span
                 className="info"
-              >
-                3 hours ago
-              </span>
+              />
               <span
                 className="info hidepost helper-spacing-left"
               >
@@ -552,9 +544,7 @@ ShallowWrapper {
                 </span>,
                 <span
                   className="info"
-                >
-                  3 hours ago
-                </span>,
+                />,
                 <span
                   className="info hidepost helper-spacing-left"
                 >
@@ -613,11 +603,11 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "3 hours ago",
+                  "children": undefined,
                   "className": "info",
                 },
                 "ref": null,
-                "rendered": "3 hours ago",
+                "rendered": null,
                 "type": "span",
               },
               Object {
@@ -726,9 +716,7 @@ ShallowWrapper {
               </span>
               <span
                 className="info"
-              >
-                3 hours ago
-              </span>
+              />
               <span
                 className="info hidepost helper-spacing-left"
               >
@@ -924,9 +912,7 @@ ShallowWrapper {
                 </span>,
                 <span
                   className="info"
-                >
-                  3 hours ago
-                </span>,
+                />,
                 <span
                   className="info hidepost helper-spacing-left"
                 >
@@ -985,11 +971,11 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "3 hours ago",
+                  "children": undefined,
                   "className": "info",
                 },
                 "ref": null,
-                "rendered": "3 hours ago",
+                "rendered": null,
                 "type": "span",
               },
               Object {
@@ -1100,9 +1086,7 @@ ShallowWrapper {
               </span>
               <span
                 className="info"
-              >
-                3 hours ago
-              </span>
+              />
               <span
                 className="info hidepost helper-spacing-left"
               >
@@ -1300,9 +1284,7 @@ ShallowWrapper {
                 </span>,
                 <span
                   className="info"
-                >
-                  3 hours ago
-                </span>,
+                />,
                 <span
                   className="info hidepost helper-spacing-left"
                 >
@@ -1361,11 +1343,11 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "3 hours ago",
+                  "children": undefined,
                   "className": "info",
                 },
                 "ref": null,
-                "rendered": "3 hours ago",
+                "rendered": null,
                 "type": "span",
               },
               Object {
@@ -1483,9 +1465,7 @@ ShallowWrapper {
               </span>
               <span
                 className="info"
-              >
-                3 hours ago
-              </span>
+              />
               <span
                 className="info hidepost helper-spacing-left"
               >
@@ -1559,9 +1539,7 @@ ShallowWrapper {
               </span>
               <span
                 className="info"
-              >
-                3 hours ago
-              </span>
+              />
               <span
                 className="info hidepost helper-spacing-left"
               >
@@ -1637,9 +1615,7 @@ ShallowWrapper {
               </span>
               <span
                 className="info"
-              >
-                3 hours ago
-              </span>
+              />
               <span
                 className="info hidepost helper-spacing-left"
               >
@@ -1723,9 +1699,7 @@ ShallowWrapper {
                 </span>
                 <span
                   className="info"
-                >
-                  3 hours ago
-                </span>
+                />
                 <span
                   className="info hidepost helper-spacing-left"
                 >
@@ -1923,9 +1897,7 @@ ShallowWrapper {
                   </span>,
                   <span
                     className="info"
-                  >
-                    3 hours ago
-                  </span>,
+                  />,
                   <span
                     className="info hidepost helper-spacing-left"
                   >
@@ -1984,11 +1956,11 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "3 hours ago",
+                    "children": undefined,
                     "className": "info",
                   },
                   "ref": null,
-                  "rendered": "3 hours ago",
+                  "rendered": null,
                   "type": "span",
                 },
                 Object {
@@ -2097,9 +2069,7 @@ ShallowWrapper {
                 </span>
                 <span
                   className="info"
-                >
-                  3 hours ago
-                </span>
+                />
                 <span
                   className="info hidepost helper-spacing-left"
                 >
@@ -2295,9 +2265,7 @@ ShallowWrapper {
                   </span>,
                   <span
                     className="info"
-                  >
-                    3 hours ago
-                  </span>,
+                  />,
                   <span
                     className="info hidepost helper-spacing-left"
                   >
@@ -2356,11 +2324,11 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "3 hours ago",
+                    "children": undefined,
                     "className": "info",
                   },
                   "ref": null,
-                  "rendered": "3 hours ago",
+                  "rendered": null,
                   "type": "span",
                 },
                 Object {
@@ -2471,9 +2439,7 @@ ShallowWrapper {
                 </span>
                 <span
                   className="info"
-                >
-                  3 hours ago
-                </span>
+                />
                 <span
                   className="info hidepost helper-spacing-left"
                 >
@@ -2671,9 +2637,7 @@ ShallowWrapper {
                   </span>,
                   <span
                     className="info"
-                  >
-                    3 hours ago
-                  </span>,
+                  />,
                   <span
                     className="info hidepost helper-spacing-left"
                   >
@@ -2732,11 +2696,11 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "3 hours ago",
+                    "children": undefined,
                     "className": "info",
                   },
                   "ref": null,
-                  "rendered": "3 hours ago",
+                  "rendered": null,
                   "type": "span",
                 },
                 Object {

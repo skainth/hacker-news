@@ -19,7 +19,7 @@ class NewsList extends Component{
 				</span>
 				<span className='secondClass'>
 					<span className='info'>by <span className='title'>{post.author}</span>  </span>
-					<span className='info'>3 hours ago</span>
+					<span className='info'>{post.time}</span>
 					<span className='info hidepost helper-spacing-left'>[ <span className='title' onClick={hidePostClick} data-objectid={post.objectID}>hide</span> ]</span>
 				</span>
 			</div>
